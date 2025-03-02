@@ -17,9 +17,9 @@ function handleSubmit(event) {
     };
 
     console.log(info);
+
+    form.reset();
   } else {
     alert("All form fields must be filled in");
   }
-
-  form.reset();
 }
