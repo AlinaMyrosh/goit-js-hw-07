@@ -3,10 +3,6 @@ const createBtn = document.querySelector("button[data-create]");
 const destroyBtn = document.querySelector("button[data-destroy]");
 const boxesContainer = document.querySelector("#boxes");
 
-console.log(Number(input.value)); // Проверка значения input
-console.log(input.min); // Проверка значения min
-console.log(input.max); // Проверка значения max
-
 createBtn.addEventListener("click", createMarkup);
 
 function createMarkup() {

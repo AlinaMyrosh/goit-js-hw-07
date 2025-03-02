@@ -39,3 +39,5 @@ function createMarkup(array) {
 }
 
 gallery.insertAdjacentHTML("beforeend", createMarkup(images));
+
+console.log(gallery);
